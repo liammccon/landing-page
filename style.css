@@ -7,8 +7,67 @@
 
 body {
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header, .footer, .hero {
+.header-hero, .header, .footer, .hero {
     background-color: var(--dark);
+    color: var(--light);
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--light);
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.header-hero {
+    padding: 0 12%;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+.hero-left, .hero-right {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+.subtitle {
+    margin: 20px 0 ;
+}
+.button {
+    background-color: var(--accent);
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline;
+}
+img {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
