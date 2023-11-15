@@ -1,0 +1,14 @@
+:root {
+    --dark: #1F2937;
+    --light: #F9FAF8;
+    --secondary: #E5E7EB;
+    --accent: #3882F6;
+}
+
+body {
+    margin: 0;
+}
+
+.header, .footer, .hero {
+    background-color: var(--dark);
+}
