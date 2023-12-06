@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header-hero, .header, .footer, .hero {
@@ -17,7 +17,7 @@ body {
 
 .header {
     display: flex;
-    padding: 8px;
+    padding: 16px;
 }
 
 .logo {
@@ -67,6 +67,9 @@ body {
     display: inline;
 }
 
+.image-section {
+    margin-bottom: 32px;
+}
 .images-heading {
     font-size: 36px;
     font-weight: 900;
@@ -75,8 +78,44 @@ body {
 }
 
 .cards {
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
 }
+.card {
+    flex: 0 1 250px;
+
+}
+.frog-img {
+    border: 4px solid var(--accent);
+    border-radius: 5%;
+    border-radius: 4%;
+}
+.card-text {
+    margin-top: 6px;
+    text-align: center;
+    color: #575757;
+}
+
+.quote-section {
+    background-color: var(--secondary);
+    padding: 64px 15%;
+
+}
+.quote {
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote-author {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
 
 img {
     width: 100%;
