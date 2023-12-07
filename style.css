@@ -180,6 +180,10 @@ ul {
     padding: 0;
 }
 
+a {
+    color: white;
+}
+
 li {
     list-style-type: none;
 }
